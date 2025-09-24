@@ -25,7 +25,7 @@ You can filter the logs based on some regex pattern like this
 strainer <pattern> ./p a b c
 ```
 
-By default, the filtered logs are written to `stdout`, but you can use the `--out` flag to write a some file
+By default, the filtered logs are written to `stdout`, but you can use the `--out` flag to write to some file
 
 ```bash
 strainer <pattern> ./p a b c --out=<path/to/file>
